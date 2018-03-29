@@ -1,0 +1,560 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F4CDC34B206D38C00076D100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC34A206D38C00076D100 /* AppDelegate.swift */; };
+		F4CDC34D206D38C00076D100 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = F4CDC34C206D38C00076D100 /* GameScene.sks */; };
+		F4CDC34F206D38C00076D100 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = F4CDC34E206D38C00076D100 /* Actions.sks */; };
+		F4CDC351206D38C00076D100 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC350206D38C00076D100 /* GameScene.swift */; };
+		F4CDC353206D38C00076D100 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC352206D38C00076D100 /* ViewController.swift */; };
+		F4CDC355206D38C00076D100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4CDC354206D38C00076D100 /* Assets.xcassets */; };
+		F4CDC358206D38C00076D100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CDC356206D38C00076D100 /* Main.storyboard */; };
+		F4CDC364206D38C00076D100 /* RainbowLandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC363206D38C00076D100 /* RainbowLandTests.swift */; };
+		F4CDC36F206D38C00076D100 /* RainbowLandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC36E206D38C00076D100 /* RainbowLandUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F4CDC360206D38C00076D100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CDC33F206D38BF0076D100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CDC346206D38BF0076D100;
+			remoteInfo = RainbowLand;
+		};
+		F4CDC36B206D38C00076D100 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F4CDC33F206D38BF0076D100 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F4CDC346206D38BF0076D100;
+			remoteInfo = RainbowLand;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F4CDC347206D38C00076D100 /* RainbowLand.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RainbowLand.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CDC34A206D38C00076D100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F4CDC34C206D38C00076D100 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		F4CDC34E206D38C00076D100 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		F4CDC350206D38C00076D100 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		F4CDC352206D38C00076D100 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F4CDC354206D38C00076D100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F4CDC357206D38C00076D100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F4CDC359206D38C00076D100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CDC35A206D38C00076D100 /* RainbowLand.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = RainbowLand.entitlements; sourceTree = "<group>"; };
+		F4CDC35F206D38C00076D100 /* RainbowLandTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowLandTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CDC363206D38C00076D100 /* RainbowLandTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowLandTests.swift; sourceTree = "<group>"; };
+		F4CDC365206D38C00076D100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CDC36A206D38C00076D100 /* RainbowLandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowLandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F4CDC36E206D38C00076D100 /* RainbowLandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowLandUITests.swift; sourceTree = "<group>"; };
+		F4CDC370206D38C00076D100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F4CDC344206D38BF0076D100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CDC35C206D38C00076D100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CDC367206D38C00076D100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F4CDC33E206D38BF0076D100 = {
+			isa = PBXGroup;
+			children = (
+				F4CDC349206D38C00076D100 /* RainbowLand */,
+				F4CDC362206D38C00076D100 /* RainbowLandTests */,
+				F4CDC36D206D38C00076D100 /* RainbowLandUITests */,
+				F4CDC348206D38C00076D100 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F4CDC348206D38C00076D100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC347206D38C00076D100 /* RainbowLand.app */,
+				F4CDC35F206D38C00076D100 /* RainbowLandTests.xctest */,
+				F4CDC36A206D38C00076D100 /* RainbowLandUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F4CDC349206D38C00076D100 /* RainbowLand */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC34A206D38C00076D100 /* AppDelegate.swift */,
+				F4CDC34C206D38C00076D100 /* GameScene.sks */,
+				F4CDC34E206D38C00076D100 /* Actions.sks */,
+				F4CDC350206D38C00076D100 /* GameScene.swift */,
+				F4CDC352206D38C00076D100 /* ViewController.swift */,
+				F4CDC354206D38C00076D100 /* Assets.xcassets */,
+				F4CDC356206D38C00076D100 /* Main.storyboard */,
+				F4CDC359206D38C00076D100 /* Info.plist */,
+				F4CDC35A206D38C00076D100 /* RainbowLand.entitlements */,
+			);
+			path = RainbowLand;
+			sourceTree = "<group>";
+		};
+		F4CDC362206D38C00076D100 /* RainbowLandTests */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC363206D38C00076D100 /* RainbowLandTests.swift */,
+				F4CDC365206D38C00076D100 /* Info.plist */,
+			);
+			path = RainbowLandTests;
+			sourceTree = "<group>";
+		};
+		F4CDC36D206D38C00076D100 /* RainbowLandUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F4CDC36E206D38C00076D100 /* RainbowLandUITests.swift */,
+				F4CDC370206D38C00076D100 /* Info.plist */,
+			);
+			path = RainbowLandUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F4CDC346206D38BF0076D100 /* RainbowLand */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CDC373206D38C00076D100 /* Build configuration list for PBXNativeTarget "RainbowLand" */;
+			buildPhases = (
+				F4CDC343206D38BF0076D100 /* Sources */,
+				F4CDC344206D38BF0076D100 /* Frameworks */,
+				F4CDC345206D38BF0076D100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RainbowLand;
+			productName = RainbowLand;
+			productReference = F4CDC347206D38C00076D100 /* RainbowLand.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F4CDC35E206D38C00076D100 /* RainbowLandTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CDC376206D38C00076D100 /* Build configuration list for PBXNativeTarget "RainbowLandTests" */;
+			buildPhases = (
+				F4CDC35B206D38C00076D100 /* Sources */,
+				F4CDC35C206D38C00076D100 /* Frameworks */,
+				F4CDC35D206D38C00076D100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4CDC361206D38C00076D100 /* PBXTargetDependency */,
+			);
+			name = RainbowLandTests;
+			productName = RainbowLandTests;
+			productReference = F4CDC35F206D38C00076D100 /* RainbowLandTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F4CDC369206D38C00076D100 /* RainbowLandUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F4CDC379206D38C00076D100 /* Build configuration list for PBXNativeTarget "RainbowLandUITests" */;
+			buildPhases = (
+				F4CDC366206D38C00076D100 /* Sources */,
+				F4CDC367206D38C00076D100 /* Frameworks */,
+				F4CDC368206D38C00076D100 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F4CDC36C206D38C00076D100 /* PBXTargetDependency */,
+			);
+			name = RainbowLandUITests;
+			productName = RainbowLandUITests;
+			productReference = F4CDC36A206D38C00076D100 /* RainbowLandUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F4CDC33F206D38BF0076D100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = "Tom Shiflet";
+				TargetAttributes = {
+					F4CDC346206D38BF0076D100 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+					F4CDC35E206D38C00076D100 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4CDC346206D38BF0076D100;
+					};
+					F4CDC369206D38C00076D100 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+						TestTargetID = F4CDC346206D38BF0076D100;
+					};
+				};
+			};
+			buildConfigurationList = F4CDC342206D38BF0076D100 /* Build configuration list for PBXProject "RainbowLand" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F4CDC33E206D38BF0076D100;
+			productRefGroup = F4CDC348206D38C00076D100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F4CDC346206D38BF0076D100 /* RainbowLand */,
+				F4CDC35E206D38C00076D100 /* RainbowLandTests */,
+				F4CDC369206D38C00076D100 /* RainbowLandUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F4CDC345206D38BF0076D100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CDC34D206D38C00076D100 /* GameScene.sks in Resources */,
+				F4CDC355206D38C00076D100 /* Assets.xcassets in Resources */,
+				F4CDC34F206D38C00076D100 /* Actions.sks in Resources */,
+				F4CDC358206D38C00076D100 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CDC35D206D38C00076D100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CDC368206D38C00076D100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F4CDC343206D38BF0076D100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CDC353206D38C00076D100 /* ViewController.swift in Sources */,
+				F4CDC351206D38C00076D100 /* GameScene.swift in Sources */,
+				F4CDC34B206D38C00076D100 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CDC35B206D38C00076D100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CDC364206D38C00076D100 /* RainbowLandTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4CDC366206D38C00076D100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4CDC36F206D38C00076D100 /* RainbowLandUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F4CDC361206D38C00076D100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CDC346206D38BF0076D100 /* RainbowLand */;
+			targetProxy = F4CDC360206D38C00076D100 /* PBXContainerItemProxy */;
+		};
+		F4CDC36C206D38C00076D100 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F4CDC346206D38BF0076D100 /* RainbowLand */;
+			targetProxy = F4CDC36B206D38C00076D100 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F4CDC356206D38C00076D100 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F4CDC357206D38C00076D100 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F4CDC371206D38C00076D100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F4CDC372206D38C00076D100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		F4CDC374206D38C00076D100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RainbowLand/RainbowLand.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RainbowLand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TJS.RainbowLand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		F4CDC375206D38C00076D100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = RainbowLand/RainbowLand.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RainbowLand/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TJS.RainbowLand;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		F4CDC377206D38C00076D100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RainbowLandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TJS.RainbowLandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainbowLand.app/Contents/MacOS/RainbowLand";
+			};
+			name = Debug;
+		};
+		F4CDC378206D38C00076D100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RainbowLandTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TJS.RainbowLandTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RainbowLand.app/Contents/MacOS/RainbowLand";
+			};
+			name = Release;
+		};
+		F4CDC37A206D38C00076D100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RainbowLandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TJS.RainbowLandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = RainbowLand;
+			};
+			name = Debug;
+		};
+		F4CDC37B206D38C00076D100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = RainbowLandUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = TJS.RainbowLandUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = RainbowLand;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F4CDC342206D38BF0076D100 /* Build configuration list for PBXProject "RainbowLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CDC371206D38C00076D100 /* Debug */,
+				F4CDC372206D38C00076D100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CDC373206D38C00076D100 /* Build configuration list for PBXNativeTarget "RainbowLand" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CDC374206D38C00076D100 /* Debug */,
+				F4CDC375206D38C00076D100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CDC376206D38C00076D100 /* Build configuration list for PBXNativeTarget "RainbowLandTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CDC377206D38C00076D100 /* Debug */,
+				F4CDC378206D38C00076D100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F4CDC379206D38C00076D100 /* Build configuration list for PBXNativeTarget "RainbowLandUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F4CDC37A206D38C00076D100 /* Debug */,
+				F4CDC37B206D38C00076D100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F4CDC33F206D38BF0076D100 /* Project object */;
+}
