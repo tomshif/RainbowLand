@@ -16,6 +16,11 @@
 		F4CDC358206D38C00076D100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4CDC356206D38C00076D100 /* Main.storyboard */; };
 		F4CDC364206D38C00076D100 /* RainbowLandTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC363206D38C00076D100 /* RainbowLandTests.swift */; };
 		F4CDC36F206D38C00076D100 /* RainbowLandUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC36E206D38C00076D100 /* RainbowLandUITests.swift */; };
+		F4CDC37D206D39450076D100 /* EntityClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC37C206D39450076D100 /* EntityClass.swift */; };
+		F4CDC37F206D53CB0076D100 /* PlayerClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC37E206D53CB0076D100 /* PlayerClass.swift */; };
+		F4CDC381206D58DA0076D100 /* random.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC380206D58DA0076D100 /* random.swift */; };
+		F4CDC383206D6C740076D100 /* PotClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC382206D6C740076D100 /* PotClass.swift */; };
+		F4CDC385206D6FF40076D100 /* EnemyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4CDC384206D6FF40076D100 /* EnemyClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -52,6 +57,11 @@
 		F4CDC36A206D38C00076D100 /* RainbowLandUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RainbowLandUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4CDC36E206D38C00076D100 /* RainbowLandUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RainbowLandUITests.swift; sourceTree = "<group>"; };
 		F4CDC370206D38C00076D100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4CDC37C206D39450076D100 /* EntityClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntityClass.swift; sourceTree = "<group>"; };
+		F4CDC37E206D53CB0076D100 /* PlayerClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerClass.swift; sourceTree = "<group>"; };
+		F4CDC380206D58DA0076D100 /* random.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = random.swift; sourceTree = "<group>"; };
+		F4CDC382206D6C740076D100 /* PotClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PotClass.swift; sourceTree = "<group>"; };
+		F4CDC384206D6FF40076D100 /* EnemyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnemyClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +121,11 @@
 				F4CDC356206D38C00076D100 /* Main.storyboard */,
 				F4CDC359206D38C00076D100 /* Info.plist */,
 				F4CDC35A206D38C00076D100 /* RainbowLand.entitlements */,
+				F4CDC37C206D39450076D100 /* EntityClass.swift */,
+				F4CDC37E206D53CB0076D100 /* PlayerClass.swift */,
+				F4CDC380206D58DA0076D100 /* random.swift */,
+				F4CDC382206D6C740076D100 /* PotClass.swift */,
+				F4CDC384206D6FF40076D100 /* EnemyClass.swift */,
 			);
 			path = RainbowLand;
 			sourceTree = "<group>";
@@ -268,9 +283,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4CDC383206D6C740076D100 /* PotClass.swift in Sources */,
+				F4CDC381206D58DA0076D100 /* random.swift in Sources */,
 				F4CDC353206D38C00076D100 /* ViewController.swift in Sources */,
 				F4CDC351206D38C00076D100 /* GameScene.swift in Sources */,
 				F4CDC34B206D38C00076D100 /* AppDelegate.swift in Sources */,
+				F4CDC37F206D53CB0076D100 /* PlayerClass.swift in Sources */,
+				F4CDC37D206D39450076D100 /* EntityClass.swift in Sources */,
+				F4CDC385206D6FF40076D100 /* EnemyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
